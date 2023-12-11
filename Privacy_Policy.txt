@@ -1,5 +1,23 @@
-
-Privacy Policy for aiwithms apps
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            background-color: #0e0e0e; /* Dark background color */
+            color: #fff; /* Text color */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Your Privacy Policy content goes here -->
+    <h1>Privacy Policy</h1>
+    <p>Privacy Policy for aiwithms apps
 
 Last Updated: 05 December 2023
 
@@ -26,3 +44,11 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 6. Contact Us
 
 If you have any questions about this Privacy Policy, please contact us at aiwithms@gmail.com.
+</p>
+</body>
+</html>
+
+
+
+
+
