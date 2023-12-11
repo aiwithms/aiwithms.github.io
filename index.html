@@ -7,83 +7,103 @@
     <title>ai.with.ms - Unveiling the Cosmos Through AI</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            text-align: center;
         }
         .container {
-            width: 80%;
+            max-width: 1200px;
             margin: auto;
+            padding: 20px;
             overflow: hidden;
         }
         header {
-            background: #50b3a2;
-            color: white;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+            background: #1f1f1f;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-            text-align: center;
-        }
-        header li {
-            display: inline;
-            margin: 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
+        header h1 {
             margin: 0;
+            font-size: 2em;
         }
         header nav {
-            float: right;
+            display: flex;
+            justify-content: center;
             margin-top: 10px;
         }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
         }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
+        header nav a:hover, header nav a.active {
+            background-color: #e8491d;
+        }
+        .banner {
+            padding: 80px 0;
+            background: url('https://source.unsplash.com/1600x900/?galaxy') no-repeat center center/cover;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .banner h1 {
+            margin-bottom: 30px;
+            font-size: 3em;
+        }
+        .content {
+            padding: 40px 0;
+            background: rgba(0, 0, 0, 0.8);
+            border-top: 5px solid #e8491d;
+            border-bottom: 5px solid #e8491d;
+        }
+        .content h2, .content p {
+            margin-bottom: 20px;
+        }
+        footer {
+            padding: 20px 0;
+            background: #1f1f1f;
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">ai.with.ms</span> - Unveiling the Cosmos Through AI</h1>
-            </div>
+            <h1>ai.with.ms</h1>
             <nav>
-                <ul>
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <a href="#" class="active">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
             </nav>
         </div>
     </header>
 
-    <div class="container">
-        <h2>Discover the Intersection of Advanced AI and Cosmic Mysteries</h2>
-        <p>🌌 <strong>Cosmic Explorations Meet Cutting-Edge AI</strong>: Dive into a universe where artificial intelligence isn't just a tool, but a gateway to understanding the vast cosmos. At ai.with.ms, we blend sophisticated AI technologies with deep cosmic inquiries, exploring the unknowns of the universe.</p>
-        <p>🤖 <strong>AI-Powered Universe</strong>: Journey through repositories that showcase how AI can model, simulate, and unravel the complexities of space. From neural networks predicting cosmic events to algorithms that decode the language of the stars, our projects are at the forefront of technological and astronomical innovation.</p>
-        <p>🚀 <strong>Open Source, Open Universe</strong>: Our philosophy is simple - the universe is for everyone, and so is our code. We believe in open-source contributions that fuel progress in both AI and space exploration, fostering a community of like-minded enthusiasts and professionals.</p>
-        <p>📚 <strong>Learn, Share, and Collaborate</strong>: Whether you're a seasoned astrophysicist, a budding AI enthusiast, or somewhere in between, ai.with.ms is your hub for learning, sharing, and collaborating on projects that sit at the crossroads of AI and the universe.</p>
-        <p>💡 <strong>Join the Mission</strong>: We're more than just a repository of code. We're a movement. A journey. An exploration into the unknown. Join us as we unveil the cosmos through AI.</p>
+    <div class="banner">
+        <div class="container">
+            <h1>Unveiling the Cosmos Through AI</h1>
+            <p>Discover the Intersection of Advanced AI and Cosmic Mysteries</p>
+        </div>
     </div>
+
+    <div class="content">
+        <div class="container">
+            <h2>Welcome to ai.with.ms</h2>
+            <p>🌌 <strong>Cosmic Explorations Meet Cutting-Edge AI</strong>: Dive into a universe where artificial intelligence isn't just a tool, but a gateway to understanding the vast cosmos...</p>
+            <!-- More content here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 ai.with.ms. All rights reserved.</p>
+    </footer>
 </body>
 </html>
